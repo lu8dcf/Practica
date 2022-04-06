@@ -1,0 +1,19 @@
+@font-face 
+{
+    font-family: "fuente1";
+    src: url('font/TASTY DONUTS.otf');
+}
+
+    
+.cosito{
+    color:pink;
+    font-size:20px
+}
+
+h1 em {color:blue;}
+
+h1>strong {color:red;}
+
+
+p:first-child{color:blue;}
+p:last-child{color:blueviolet;}
