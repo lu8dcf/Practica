@@ -2,12 +2,38 @@
     box-sizing: border-box;
 }
 
+html{
+    height: 100%;
+}
+
 body, header, footer, main, section{
     border: 7px green
 }
 
 article, aside{
     border: 7px lightgreen
+}
+
+header {
+    background: linear green lightgreen;
+}
+.header-logo{
+    height: auto;
+    display: inline-block;
+    margin: 1rem;
+}
+.header-menu{
+    position: relative;
+    top: auto;
+    display: inline-block;
+}
+.header-menu ul {
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(green lightgreen
+    );
+}
+.header-menu li {
+    float: left;
 }
 
 
