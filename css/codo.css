@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 html{
@@ -7,20 +9,25 @@ html{
 }
 
 body, header, footer, main, section{
-    border: 7px green
+    background: green;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    border: 7px green;
+
 }
 
+
 article, aside{
-    border: 7px lightgreen
+    border: 7px lightgreen;
 }
 
 header {
-    background: linear green lightgreen;
+    background: rgb(121, 211, 136);
 }
 .header-logo{
     height: auto;
     display: inline-block;
-    margin: 1rem;
+    margin: 2rem;
 }
 .header-menu{
     position: relative;
@@ -28,7 +35,7 @@ header {
     display: inline-block;
 }
 .header-menu ul {
-    font-family: 'Times New Roman', Times, serif;
+    
     background: linear-gradient(green lightgreen
     );
 }
@@ -36,6 +43,46 @@ header {
     float: left;
 }
 
+.header-menu li a {
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    border: 4px solid black;
+    margin: auto;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.contenedor > div {
+    display: block;
+    padding: 10px;
+    color: coral;
+    background: blue;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.25);
+}
+
+p {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
 
 @font-face 
 {
